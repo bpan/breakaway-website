@@ -1,1 +1,1 @@
-# breakaway-website
+# Assets for the Breakaway website
