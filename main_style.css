@@ -243,7 +243,7 @@ div#content {min-height:400px;}
 }
 
 #nav-wrap td {
-	verticle-align:middle;
+	vertical-align:middle;
 }
 
 #nav-wrap .container ul {
@@ -281,6 +281,10 @@ div#content {min-height:400px;}
 
 /* Navigation Submenu's
 --------------------------------------------------------------------------------*/
+
+.wsite-menu-default {
+	margin-right: 40px;
+}
 
 #wsite-menus .wsite-menu li a {
 	font-family: 'Oswald', Impact, sans-serif;
