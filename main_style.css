@@ -688,22 +688,22 @@ div#content {min-height:400px;}
 /* Highlighted styles */
 
 .wsite-button-highlight {
-	background-image: url(button_orange.png);
+	background-image: url(button_blue.png);
 }
 
 .wsite-button-highlight .wsite-button-inner {
-	background-image: url(button_orange.png);
+	background-image: url(button_blue.png);
 }
 
 .wsite-button-large.wsite-button-highlight {
-	background-image: url(button_large_orange.png);
+	background-image: url(button_large_blue.png);
 }
 
 .wsite-button-large.wsite-button-highlight .wsite-button-inner {
-	background-image: url(button_large_orange.png);
+	background-image: url(button_large_blue.png);
 }
 
-/* Match RSS feed to Photostic theme
+/* Match RSS feed to Phototistic theme
 --------------------------------------------------------------------------------*/
 
 div[class^="rss-box-"] {
