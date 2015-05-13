@@ -688,7 +688,6 @@ div#content {min-height:400px;}
 	background-position: 0px -102px;
 }
 
-
 /* Highlighted styles */
 
 .wsite-button-highlight {
@@ -706,6 +705,36 @@ div#content {min-height:400px;}
 .wsite-button-large.wsite-button-highlight .wsite-button-inner {
 	background-image: url(button_large_blue.png);
 }
+
+/* Match FeedBurner feed to Phototistic theme
+--------------------------------------------------------------------------------*/
+
+.feedburnerFeedBlock .headline a {
+	/* Simulate theme <h3> */
+	font-size: 21px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+	color: #209fda;
+}
+
+.feedburnerFeedBlock .date {
+	/* Add padding between title/date and body */
+	padding-bottom: 15px;
+}
+
+.feedburnerFeedBlock li {
+	/* Simulate Weebly dividers */
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(0,0,0,0.13);
+	margin-bottom: 20px;
+}
+
+.feedburnerFeedBlock #creditfooter {
+	/* FeedBurner badge */
+	float: right;
+	opacity: 0.6;
+}
+
 
 /* Match RSS feed to Phototistic theme
 --------------------------------------------------------------------------------*/
@@ -725,7 +754,14 @@ div[class^="rss-box-"] {
 	padding-bottom: 20px !important;
 	border-bottom: 1px solid rgba(0,0,0,0.13);
 	margin-bottom: 20px;
-	color: #888888; /* theme .container */
+	 /* theme .container */
+	color: #888888;
+	/* theme body */
+	font-family: 'Droid Sans', sans-serif;
+	/* theme p */
+	font-size: 14px ;
+	line-height: 1.5;
+	padding: .5em 0;
 }
 
 #wsite-content .rss-title {
@@ -750,20 +786,11 @@ div[class^="rss-box-"] {
 	text-decoration: none;
 }
 	
-#wsite-content a:hover {
+#wsite-content a.rss-item:hover {
 	color: #135F83 !important;
 }
 
-#wsite-content li {
-	/* theme body */
-	font-family: 'Droid Sans', sans-serif;
-	/* theme p */
-	font-size: 14px ;
-	line-height: 1.5;
-	padding: .5em 0 !important;
-}
-
-#wsite-content li br {
+#wsite-content li.rss-item br {
 	/* simulate the double <br> in Weebly paragraphs */
 	line-height: 3;
 }
