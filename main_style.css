@@ -722,7 +722,7 @@ div#content {min-height:400px;}
 	padding-bottom: 15px;
 }
 
-.feedburnerFeedBlock li {
+.feedburnerFeedBlock > ul > li {
 	/* Simulate Weebly dividers */
 	padding-bottom: 15px;
 	border-bottom: 1px solid rgba(0,0,0,0.13);
@@ -736,61 +736,16 @@ div#content {min-height:400px;}
 }
 
 
-/* Match RSS feed to Phototistic theme
---------------------------------------------------------------------------------*/
-
-div[class^="rss-box-"] {
-    background: none;
-	border: none;
+.feedburnerFeedBlock > ul > li ul {
+	/* Simulate theme <ul> */
+    margin: 5px 0;
+    padding-left: 5px;
 }
 
-#wsite-content .rss-items {
-	border: none;
-}
-
-#wsite-content li.rss-item {
-	border: none;
-	/* simulate Weebly dividers */
-	padding-bottom: 20px !important;
-	border-bottom: 1px solid rgba(0,0,0,0.13);
-	margin-bottom: 20px;
-	 /* theme .container */
-	color: #888888;
-	/* theme body */
-	font-family: 'Droid Sans', sans-serif;
-	/* theme p */
-	font-size: 14px ;
-	line-height: 1.5;
-	padding: .5em 0;
-}
-
-#wsite-content .rss-title {
-	display: none; /* disable title so it can be placed manually */
-	/* theme h2 */
-	font-size: 24px;
-	padding: .5em 0 .2em 0 !important;
-	line-height: 1.2;
-	font-family: 'Oswald', sans-serif;
-	font-weight: normal !important;
-	color: #444444 !important;
-	text-transform: uppercase;
-	margin-bottom: 10px !important;
-}
-
-#wsite-content a.rss-item {
-	/* A mix of theme <a> and <h3> */
-	font-size: 21px !important;
-	font-family: 'Oswald', sans-serif !important;
-	font-weight: normal !important;
-	color: #209fda !important;
-	text-decoration: none;
-}
-	
-#wsite-content a.rss-item:hover {
-	color: #135F83 !important;
-}
-
-#wsite-content li.rss-item br {
-	/* simulate the double <br> in Weebly paragraphs */
-	line-height: 3;
+.feedburnerFeedBlock > ul > li li {
+	/* Simulate theme <li> */
+	list-style:none;
+	background:url(bullet-content.png) no-repeat 0px 1px;
+	padding-left: 40px;
+	margin: 3px 0 13px;
 }
