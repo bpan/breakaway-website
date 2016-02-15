@@ -620,7 +620,7 @@ div#content {min-height:400px;}
 .wsite-button {
 	height:35px ;
 	display: inline-block;
-	padding: 0px 9px 0px 0px;
+	padding: 0;
 	background: url(button_highlight.png) no-repeat 100% -112px;
 }
 
@@ -642,7 +642,7 @@ div#content {min-height:400px;}
 	font-weight: bold;
 	text-decoration: none;
 	text-transform:uppercase;
-	padding: 0 3px 0 12px;
+	padding: 0 12px;
 	background: url(button_highlight.png) no-repeat 0px 0px;
 	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
 }
@@ -661,7 +661,7 @@ div#content {min-height:400px;}
 	color: #ffffff !important;
 	height: 46px;
 	background: url(button_large_highlight.png) no-repeat 100% -150px;
-	padding: 0px 13px 0px 0px;;
+	padding: 0;
 }
 
 .wsite-button-large:hover {
@@ -676,7 +676,7 @@ div#content {min-height:400px;}
 	height: 46px;
 	line-height: 46px;
 	font-size: 18px;
-	padding: 0px 3px 0px 16px;
+	padding: 0px 16px;
 	background: url(button_large_highlight.png) no-repeat 0px 0px;
 }
 
